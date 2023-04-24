@@ -18,7 +18,7 @@ section {
     padding: 15px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 7px 7px 5px #DFA5A6;
+    box-shadow: 7px 7px 5px #4b4242;
     background-color: #E8BBBE;
 }
 
@@ -31,7 +31,7 @@ section {
     background-color: #F9F0BC;
 }
 
-.output {
+.math {
     padding: 20px;
     font-size: 35px;
 }
