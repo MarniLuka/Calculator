@@ -18,7 +18,7 @@ function calculate() {
     }
 
     if (displayText === "DE") {
-        math.innerText = math.value.toString().slice(0,-1);
+        math.innerText = math.textContent.toString().slice(0,-1);
         return;
     }
 
