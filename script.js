@@ -9,5 +9,23 @@ calcBtn.forEach(number => {
 })
 
 function calculate() {
-    console.log("check")
+    const displayText = this.innerText;
+
+    if (displayText === "AC") {
+        math.innerText = '';
+        result.innerText = '';
+    }
+
+    if (displayText === "DE") {
+        math.innerText = math.value.toString().slice(0,-1);
+    }
+
+    if (displayText === "=") {
+        result.innerText = eval(math.value);
+    }
+
+    else {
+        math.innerText += displayText;
+    }
 }
+
